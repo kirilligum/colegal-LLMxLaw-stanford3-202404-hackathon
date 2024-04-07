@@ -5,130 +5,159 @@
       {
         "name": "header"
       },
-      {
-        "text": "ATTORNEY OR PARTY WITHOUT ATTORNEY:",
-      },
-      {
-        "text": "Name",
-        "value": "",
-        "description": "",
-        "examples": ""
-      },
-      {
-        "text": "State Bar number",
-        "value": "",
-        "description": "",
-        "examples": ""
-      },
-      {
-        "text": "address",
-        "value": "",
-        "description": "",
-        "examples": ""
-      },
-      {
-        "text": "TELEPHONE NO.:",
-        "value": "",
-        "description": "",
-        "examples": ""
-      },
-      {
-        "text": "FAX NO. (Optjona/):",
-        "value": "",
-        "description": "",
-        "examples": ""
-      },
-      {
-        "text": "E-MAIL ADDRESS (Optional):",
-        "value": "",
-        "description": "",
-        "examples": ""
-      },
-      {
-        "text": "ATTORNEY FOR (Name):",
-        "value": "",
-        "description": "",
-        "examples": ""
-      },
+      [
+        {
+          "text": "ATTORNEY OR PARTY WITHOUT ATTORNEY:",
+        },
+        {
+          "text": "Name",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "State Bar number",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "address",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "TELEPHONE NO.:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "FAX NO. (Optjona/):",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "E-MAIL ADDRESS (Optional):",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "ATTORNEY FOR (Name):",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "SUPERIOR COURT OF CALIFORNIA, COUNTY OF",
+        },
+        {
+          "text": "STREET ADDRESS:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "MAILING ADDRESS:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "CITY AND ZIP CODE:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "BRANCH NAME:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "(This section applies only to family law cases.)",
+        },
+        {
+          "text": "PETITIONER:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "RESPONDENT:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "OTHER PARTY':",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "(This section apples only to guardianship cases.)",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "GUARDIANSHIP OF (Name):",
+          "value": "",
+          "description": "Minor",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "CASE NUMBER",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "DECLARATION UNDER UNIFORM CHILD CUSTODY JURISDICTION AND ENFORCEMENT ACT (UCCJEA)",
+        },
+      ],
     ],
     [
       {
-        "text": "SUPERIOR COURT OF CALIFORNIA, COUNTY OF",
+        "name": "01"
       },
-      {
-        "text": "STREET ADDRESS:",
-        "value": "",
-        "description": "",
-        "examples": ""
-      },
-      {
-        "text": "MAILING ADDRESS:",
-        "value": "",
-        "description": "",
-        "examples": ""
-      },
-      {
-        "text": "CITY AND ZIP CODE:",
-        "value": "",
-        "description": "",
-        "examples": ""
-      },
-      {
-        "text": "BRANCH NAME:",
-        "value": "",
-        "description": "",
-        "examples": ""
-      },
-    ],
-    [
-      {
-        "text": "(This section applies only to family law cases.)",
-      },
-      {
-        "text": "PETITIONER:",
-        "value": "",
-        "description": "",
-        "examples": ""
-      },
-      {
-        "text": "RESPONDENT:",
-        "value": "",
-        "description": "",
-        "examples": ""
-      },
-      {
-        "text": "OTHER PARTY':",
-        "value": "",
-        "description": "",
-        "examples": ""
-      },
-    ],
-    [
-      {
-        "text": "(This section apples only to guardianship cases.)",
-        "value": "",
-        "description": "",
-        "examples": ""
-      },
-      {
-        "text": "GUARDIANSHIP OF (Name):",
-        "value": "",
-        "description": "Minor",
-        "examples": ""
-      },
-    ],
-    [
-      {
-        "text": "CASE NUMBER",
-        "value": "",
-        "description": "",
-        "examples": ""
-      },
-    ],
-    [
-      {
-        "text": "DECLARATION UNDER UNIFORM CHILD CUSTODY JURISDICTION AND ENFORCEMENT ACT (UCCJEA)",
-      },
+      [
+        {
+          "text": "I am a party to this proceeding to determine custody of a child.",
+          "location": "1",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "My present address and the present address of each child residing with me is confidential under Family Code section 3429 as I have indicated in item 3.",
+          "location": "2",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
     ],
   ]
-} 
+}
+
+3. There are (specify number):
+minor children who are subject to this proceeding, as follows:
+(Insert the information requested below. The residence information must be given for the last FIVE years.)
