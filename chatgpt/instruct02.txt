@@ -1,0 +1,191 @@
+act as an assistant to a family law attorney.  you will create an "ATTACHMENT TO FL-300 REOUEST FOR ORDER AND TO FL-158 SUPPORTING DECLARATION FOR ATTORNEY FEES" from a transcript of a conversation. first we will give you an example pair of a transcript and the attachment, then you will have a new transcript and you have to generate an accurate attachment.
+here is the example:
+"""
+# transcript
+
+Q: What is your legal name? 
+A: Adam Jones
+Q: Are you married?
+A: Yes.
+Q: What is your wife's name?
+A: Jessie Jones.
+Q: How long have you been married?
+A: We are married for eleven years. 
+Q: What is the date of your marriage?
+A: March 1, 2013.
+Q: Do you and Jessie currently live together? 
+A: No. 
+Q: When did you separate?
+A: We separated in December of 2023.
+Q: Do you remember the date of separation:
+A: Yes, December 1, 2023.
+Q: Why were you separated?
+A: Jessie moved out. 
+Q: Do you continue to live at the same address? 
+A: Yes.
+Q: Do you currently work?
+A: Yes.
+Q: Where do you work?
+A: I am Chief Data Scientist at the startup called Colegal. 
+Q: What is your current income?
+A: My current salary is $5,000, and I have a 25% interest in the company. 
+Q: Does Jessie work?
+A: Yes, she is Chief Operating Director at GlobalSoft Inc.
+Q: What is Jessie's current income?
+A: I don't know her current income. But before we separated, she was earning $50,000 per month. 
+Q: Do you and Jessie have any minor children in common?
+A: Yes, we have two children, one girl and one boy.  
+Q: What are the children’s names:
+A: Mei and Jiro Jones
+Q: What is your relationship to the children?
+A: I’m their father 
+Q: What is the mother’s name?
+A: Jessie Jones
+Q: Do you and the mother still live together?
+A: No
+Q: When did you stop living together?
+A: The mother moved out in December of 2023. 
+Q: Did the children move out with the mother? 
+A: No, they stayed with me
+Q: Do the children see their mother?
+A: Yes, they are staying with their mother every other week.
+Q: How old is Mei?
+A: She is ten
+Q: How old is Jiro? 
+A: He is five.
+Q: What is Mei’s date of birth? 
+A: January 1 2014 
+Q: Where was Mei born?
+A: Palo Alto, CA
+Q: What is Jiro's date of birth? 
+A: June 1, 2019
+Q: Where was Jiro born?
+A: Santa Clara, CA
+Q: Have both children lived at the same address since birth?
+A: Yes
+Q: Can you tell me the children’s residence address since birth?
+A: When Mei was born, we lived at 1234 Oak Street in Palo Alto. In 2018, we moved to 1234 Walnut Drive in Palo Alto. That is our current address. 
+Q: Do you remember the month that you moved to the Walnut Drive address?
+A: August of 2018.
+Q: Who have the children lived with since birth?
+A: The children lived with me and the mother until the mother moved out in December 2023. 
+Q: Do you and mother have an agreement in place regarding who cares for the children?
+A: Yes, the children stay one week with me and one week with the mother. 
+Q: How long have you had this arrangement in place?
+A: Since December 2023 when the mother moved out. 
+Q: Is there any other person aside from the mother who has custody or visitation claims or rights regarding Mei or Jiro? 
+A: No.
+
+# attachment
+
+**STATISTICAL FACTS**
+
+I am the "Petitioner/Husband" in the above-entitled matter. My wife, Jessie Jones, and I were married on March 1, 2013, and separated on December 1, 2023. The length of the marriage was ten (10) years and nine (9) months. We have two (2) minor children of the marriage, Mei and Jiro Jones. Since the separation, the children have resided with me at our family residence at 1234 Walnut Drive in Palo Alto, California. Every other week, the children stay with Jessie. I am currently employed as the Chief Data Scientist at Colegal with a monthly salary of $5,000. Jessie is employed as Chief Operating Director at GlobalSoft Inc. On information and belief, her salary is $50,000 per month. 
+
+REQUEST FOR CHILD CUSTODY AND VISITATION
+	I am requesting that the Court order joint legal and joint physical custody of the children; and order a week-on, week-off visitation schedule, with the exchange occuring at 5 p.m. on Friday based on the de facto parenting plan between Jessie and I. 
+  I further request that the Court make findings that the children's habitual place of residence is at the family residence at 1234 Walnut Drive in Palo Alto.
+  Mother and I have been married for over ten years. Mei goes to The Girl's Middle School in Palo Alto, which is a short 2 minut drive from our home. She attends an afterschool program where she is engaged in a variety of interccuricular activites, including theater and sports. Jiro is in preschool in Llyton Gardens in Palo Alto. Both children have an extended network of friends and family in the neiborhood. Their medical providers are also nearby. Although Jessie also lives in the area, it takes her on average 20-30 minute commute for her to drive the kids to and from school. It is thertefore in the best interest of the children to have their habitual place of residence with me. 
+
+**SPOUSAL SUPPORT**
+
+Jessie and I both continue to work in our respective professions post-separation. According to my income and expense declaration, I earn a salary of $5,000 per month and have a significant equity interest in Colegal. Jessie's last known income was $50,000 per month as Chief Operating Director at GlobalSoft Inc. Though her current income is not known, it's assumed to be substantial given her high-ranking position.
+
+Jessie and I have maintained an informal shared custody arrangement of our children, whereby they stay one week with me and one week with Jessie since our separation in December 2023. Our children, Mei and Jiro, have not faced any disruption in their living conditions and continue to attend their usual schools and activities from our family home at 1234 Walnut Drive, Palo Alto.
+
+Given the significant differences in our respective incomes, the Court should respectfully order that Jessie pay temporary spousal support to me and set the support amount according to state-adopted guidline. 
+
+**ATTORNEY FEES**
+
+I request that the Court consider our respective financial situations in relation to attorney fees. Given Jessie's significant income as Chief Operating Director at GlobalSoft Inc., it is reasonable to expect that she can contribute to her own legal expenses. I have incurred substantial legal fees since the separation in pursuit of a fair and equitable resolution to our marital dissolution, custody, and financial support arrangements. 
+
+I have retained legal representation to navigate these proceedings, ensuring the best interests of our children are considered and to reach an amicable agreement with Jessie. Given our financial standings and the complexities involved in dividing assets, including my 25% interest in Colegal, a startup company, equitable consideration for attorney fees and costs incurred by both parties is requested.
+
+**REQUESTED ORDERS**
+
+Considering the above, I respectfully request that Court make the following orders:
+1. Joint legal and joint physical custody of the children;
+2. Wife to pay temporary guideline spousal support congruous with our earnings;
+3. Wife to pay my attorney fees in the amount of $20,000.00 in accordance with Family
+Code section 2030;
+3. Any orders required to effectuate the above requests.
+
+"""
+
+now that you have the example, generate the fl300 attachment in a similar way for the following transcript
+"""
+# transcript
+
+Q: What is your legal name? 
+A: Paul Smith
+Q: Are you married?
+A: Yes.
+Q: What is your wife's name?
+A: Monica Smith.
+Q: How long have you been married?
+A: We are married for seven years. 
+Q: What is the date of your marriage?
+A: June 1, 2017.
+Q: Do you and Monica currently live together? 
+A: No. 
+Q: When did you separate?
+A: We separated in November of 2023.
+Q: Do you remember the date of separation:
+A: Yes, November 1, 2023.
+Q: Why were you separated?
+A: Monica moved out. 
+Q: Do you continue to live at the same address? 
+A: Yes.
+Q: Do you currently work?
+A: Yes.
+Q: Where do you work?
+A: I am a line chef at the restaurant called California Poppy.  
+Q: What is your current income?
+A: My current salary is $10,000. 
+Q: Does Monica work?
+A: Yes, she is a digital product designer at Digico Inc.
+Q: What is Jessie's current income?
+A: I don't know her current income. But before we separated, she was earning $20,000 per month. 
+Q: Do you and Monica have any minor children in common?
+A: Yes, we have two children, one girl and one boy.  
+Q: What are the children’s names:
+A: Leia and Luke Smith.
+Q: What is your relationship to the children?
+A: I’m their father 
+Q: What is the mother’s name?
+A: Monica Smith 
+Q: Do you and the mother still live together?
+A: No
+Q: When did you stop living together?
+A: The mother moved out in November of 2023. 
+Q: Did the children move out with the mother? 
+A: No, they stayed with me
+Q: Do the children see their mother?
+A: Yes, they are staying with their mother every other week.
+Q: How old is Leia?
+A: She is ten
+Q: How old is Luke? 
+A: He is five.
+Q: What is Leia’s date of birth? 
+A: January 31 2014 
+Q: Where was Leia born?
+A: Palo Alto, CA
+Q: What is Luke's date of birth? 
+A: June 31, 2019
+Q: Where was Luke born?
+A: Santa Clara, CA
+Q: Have both children lived at the same address since birth?
+A: Yes
+Q: Can you tell me the children’s residence address since birth?
+A: When Mei was born, we lived at 12 Orchard Street in Palo Alto. In 2018, we moved to 12 Garden Lane in Palo Alto. That is our current address. 
+Q: Do you remember the month that you moved to the Garden Lane address?
+A: October of 2018.
+Q: Who have the children lived with since birth?
+A: The children lived with me and the mother until the mother moved out in November 2023. 
+Q: Do you and mother have an agreement in place regarding who cares for the children?
+A: Yes, the children stay one week with me and one week with the mother. 
+Q: How long have you had this arrangement in place?
+A: Since November 2023 when the mother moved out. 
+Q: Is there any other person aside from the mother who has custody or visitation claims or rights regarding Leia or Luke? 
+A: No.
+"""

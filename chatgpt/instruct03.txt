@@ -1,0 +1,1161 @@
+act as an assistant to a family law attorney.
+you will create an fl105.json file from a transcript of the conversation.
+first we will give you an example pair of a transcript and the resulting fl105.json, then you will have a new transcript and you have to generate an accuratly filled in fl105.json.
+here is the example:
+"""
+# transcript
+
+Q: What is your legal name? 
+A: Adam Jones
+Q: Are you married?
+A: Yes.
+Q: What is your wife's name?
+A: Jessie Jones.
+Q: How long have you been married?
+A: We are married for eleven years. 
+Q: What is the date of your marriage?
+A: March 1, 2013.
+Q: Do you and Jessie currently live together? 
+A: No. 
+Q: When did you separate?
+A: We separated in December of 2023.
+Q: Do you remember the date of separation:
+A: Yes, December 1, 2023.
+Q: Why were you separated?
+A: Jessie moved out. 
+Q: Do you continue to live at the same address? 
+A: Yes.
+Q: Do you currently work?
+A: Yes.
+Q: Where do you work?
+A: I am Chief Data Scientist at the startup called Colegal. 
+Q: What is your current income?
+A: My current salary is $5,000, and I have a 25% interest in the company. 
+Q: Does Jessie work?
+A: Yes, she is Chief Operating Director at GlobalSoft Inc.
+Q: What is Jessie's current income?
+A: I don't know her current income. But before we separated, she was earning $50,000 per month. 
+Q: Do you and Jessie have any minor children in common?
+A: Yes, we have two children, one girl and one boy.  
+Q: What are the children’s names:
+A: Mei and Jiro Jones
+Q: What is your relationship to the children?
+A: I’m their father 
+Q: What is the mother’s name?
+A: Jessie Jones
+Q: Do you and the mother still live together?
+A: No
+Q: When did you stop living together?
+A: The mother moved out in December of 2023. 
+Q: Did the children move out with the mother? 
+A: No, they stayed with me
+Q: Do the children see their mother?
+A: Yes, they are staying with their mother every other week.
+Q: How old is Mei?
+A: She is ten
+Q: How old is Jiro? 
+A: He is five.
+Q: What is Mei’s date of birth? 
+A: January 1 2014 
+Q: Where was Mei born?
+A: Palo Alto, CA
+Q: What is Jiro's date of birth? 
+A: June 1, 2019
+Q: Where was Jiro born?
+A: Santa Clara, CA
+Q: Have both children lived at the same address since birth?
+A: Yes
+Q: Can you tell me the children’s residence address since birth?
+A: When Mei was born, we lived at 1234 Oak Street in Palo Alto. In 2018, we moved to 1234 Walnut Drive in Palo Alto. That is our current address. 
+Q: Do you remember the month that you moved to the Walnut Drive address?
+A: August of 2018.
+Q: Who have the children lived with since birth?
+A: The children lived with me and the mother until the mother moved out in December 2023. 
+Q: Do you and mother have an agreement in place regarding who cares for the children?
+A: Yes, the children stay one week with me and one week with the mother. 
+Q: How long have you had this arrangement in place?
+A: Since December 2023 when the mother moved out. 
+Q: Is there any other person aside from the mother who has custody or visitation claims or rights regarding Mei or Jiro? 
+A: No.
+
+# fl105
+
+{
+  "form_name": "FL-105",
+  "sections": [
+    [
+      {
+        "name": "header"
+      },
+      [
+        {
+          "text": "ATTORNEY OR PARTY WITHOUT ATTORNEY:",
+        },
+        {
+          "text": "Name",
+          "value": "Adam Jones",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "State Bar number",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "address",
+          "value": "1234 Oak Street, Palo Alto, CA 94000",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "TELEPHONE NO.:",
+          "value": "(650) 000-0000",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "FAX NO. (Optjona/):",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "E-MAIL ADDRESS (Optional):",
+          "value": "adam@jones.com",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "ATTORNEY FOR (Name):",
+          "value": "In Pro Per",
+          "description": "",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "SUPERIOR COURT OF CALIFORNIA, COUNTY OF",
+        },
+        {
+          "text": "STREET ADDRESS:",
+          "value": "191 N First St",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "MAILING ADDRESS:",
+          "value": "191 N First St",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "CITY AND ZIP CODE:",
+          "value": "San Jose, 95123",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "BRANCH NAME:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "(This section applies only to family law cases.)",
+        },
+        {
+          "text": "PETITIONER:",
+          "value": "Adam Smith",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "RESPONDENT:",
+          "value": "Jessie Smith",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "OTHER PARTY':",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "(This section apples only to guardianship cases.)",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "GUARDIANSHIP OF (Name):",
+          "value": "",
+          "description": "Minor",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "CASE NUMBER",
+          "value": "FL20240101",
+          "description": "",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "DECLARATION UNDER UNIFORM CHILD CUSTODY JURISDICTION AND ENFORCEMENT ACT (UCCJEA)",
+        },
+        {
+          "text": "Form Adopted for Mandatory Use Judicial Council of Califomia FL-105/GC-120 [Rev. January 1, 2009]",
+        },
+        {
+          "text": "Family Code, S 3400 et seq.; ProbateCode, SS 1510(f), 1512 www.courtinfo.ca.gov",
+        },
+        {
+          "text": "NOTICE TO DECLARANT: You have a continuing duty to inform this court if you obtain any information about a custody proceeding in a California court or any other court concerning a child subject to this proceeding.",
+        },
+      ],
+      [
+        {
+          "text": "SHORT TITLE:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+    ],
+    [
+      {
+        "name": "01"
+      },
+      [
+        {
+          "text": "I am a party to this proceeding to determine custody of a child.",
+          "location": "1",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "My present address and the present address of each child residing with me is confidential under Family Code section 3429 as I have indicated in item 3.",
+          "location": "2",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+    ],
+    [
+      {
+        "text": "There are (specify number) minor children who are subject to this proceeding, as follows (Insert the information requested below. The residence information must be given for the last FIVE years.)",
+        "location": "3",
+        "value": "",
+        "description": "",
+        "examples": "",
+        "children": [
+          [
+            [
+              {
+                "text": "Child's name",
+                "value": "Mei Jones",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Place of birth",
+                "value": "Palo Alto, CA",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Date of birth",
+                "value": "01/01/2014",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Sex",
+                "value": "F",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "December 2023",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "Present",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (put confidential if confitential)",
+                "value": "1234 Walnut Drive, Palo Alto, CA 94000",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "Adam Jones, 1234 Walnut Drive, Palo Alto, CA 94000",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "Father",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "Birth",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "December 2023",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "",
+                "description": " 1234 Oak Street, Palo Alto, CA 94000",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "Jessie Jones, Adam Jones",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "Mother, Father",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+          ],
+          [
+            [
+              {
+                "text": "Child's name",
+                "value": "Jiro Jones",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Place of birth",
+                "value": "Santa Clara, California",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Date of birth",
+                "value": "06/01/2019",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Sex",
+                "value": "M",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "Decemebr 2023",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "Present",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (put confidential if confitential)",
+                "value": "1234 Walnut Drive, Palo Alto, CA 94000",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "Adam Jones",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "Father",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "Birth",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "December 2023",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "1234 Oak Street, Palo Alto, CA 94000",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "Jessie Jones, Adam Jones",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "Mother, Father",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+          ],
+          [
+            {
+              "text": "Additional residence information for a child listed in item a or b is continued on attachment 3c.",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Additional children are listed on form FL-105(A)/GC-120(A). (Provide all requested information for additional children.)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+        ],
+      },
+    ],
+    [
+      {
+        "text": "Do you have information about, or have you participated as a party or as a witness or in some other capacity in, another court case or custody or visitation proceeding, in California or elsewhere, concerning a child subject to this proceeding?",
+        "value": "",
+        "location": "4",
+        "description": "",
+        "examples": [
+          "Yes",
+          "No"
+        ],
+        "children": [
+          {
+            "text": "(If yes, attach a copyofthe orders (if you have one) and provide the following information): ",
+          },
+          [
+            {
+              "text": "Proceeding Family",
+              "location": "a",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court (name, state, location)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court order or judgment (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Name of each child",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Your connection to the case",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case status",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Proceeding Guardianship",
+              "location": "b",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court (name, state, location)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court order or judgment (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Name of each child",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Your connection to the case",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case status",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Proceeding Other",
+              "location": "c",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court (name, state, location)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court order or judgment (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Name of each child",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Your connection to the case",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case status",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Proceeding Juvenile Delinquency/ Juvenile Dependency",
+              "location": "d",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case Number",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court (name, state, location)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Proceeding Adoption",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case Number",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court (name, state, location)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+        ],
+      },
+    ],
+    [
+      {
+        "text": "One or more domestic violence restraining/protective orders are now in effect. (Attach a copy of the orders if you have one and provide the following information):",
+        "location": "5",
+        "value": "",
+        "description": "",
+        "examples": "",
+        "children": [
+          [
+            {
+              "text": "Court Criminal",
+              "location": "a",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "County",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "State",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number (if known)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Orders expire (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Court Favmily",
+              "location": "a",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "County",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "State",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number (if known)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Orders expire (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Court Juvenile Delinquency/Dependency",
+              "location": "a",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "County",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "State",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number (if known)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Orders expire (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Court Other",
+              "location": "a",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "County",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "State",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number (if known)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Orders expire (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+        ],
+      },
+      [
+        {
+          "text": "Do you know of any person who is not a party to this proceeding who has physical custody or claims to have custody of or visitation rights with any child in this case? (If yes, provide the following information):",
+          "location": "6",
+          "value": [
+            "yes",
+            "no"
+          ],
+          "description": "",
+          "examples": "",
+          "children": [
+            [
+              {
+                "text": "Name and address of person",
+                "location": "a",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Has physical custody",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims custody rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims visitation rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Name of each child",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Name and address of person",
+                "location": "b",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Has physical custody",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims custody rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims visitation rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Name of each child",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Name and address of person",
+                "location": "c",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Has physical custody",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims custody rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims visitation rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Name of each child",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "I declare under penalty of perjury under the laws of the State of Califomia that the foregoing is true and correct.",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Date:",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "(TYPE OR PRINT NAME)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "(SIGNATURE OF DECLARANT)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+          ],
+        },
+      ],
+      [
+        {
+          "text": "Number of pages attached:",
+          "location": "7",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+    ]
+  ]
+}
+
+"""
+
+now that you have the example, generate the fl105.json file in a similar way for the following transcript
+"""
+# transcript
+
+Q: What is your legal name? 
+A: Paul Smith
+Q: Are you married?
+A: Yes.
+Q: What is your wife's name?
+A: Monica Smith.
+Q: How long have you been married?
+A: We are married for seven years. 
+Q: What is the date of your marriage?
+A: June 1, 2017.
+Q: Do you and Monica currently live together? 
+A: No. 
+Q: When did you separate?
+A: We separated in November of 2023.
+Q: Do you remember the date of separation:
+A: Yes, November 1, 2023.
+Q: Why were you separated?
+A: Monica moved out. 
+Q: Do you continue to live at the same address? 
+A: Yes.
+Q: Do you currently work?
+A: Yes.
+Q: Where do you work?
+A: I am a line chef at the restaurant called California Poppy.  
+Q: What is your current income?
+A: My current salary is $10,000. 
+Q: Does Monica work?
+A: Yes, she is a digital product designer at Digico Inc.
+Q: What is Jessie's current income?
+A: I don't know her current income. But before we separated, she was earning $20,000 per month. 
+Q: Do you and Monica have any minor children in common?
+A: Yes, we have two children, one girl and one boy.  
+Q: What are the children’s names:
+A: Leia and Luke Smith.
+Q: What is your relationship to the children?
+A: I’m their father 
+Q: What is the mother’s name?
+A: Monica Smith 
+Q: Do you and the mother still live together?
+A: No
+Q: When did you stop living together?
+A: The mother moved out in November of 2023. 
+Q: Did the children move out with the mother? 
+A: No, they stayed with me
+Q: Do the children see their mother?
+A: Yes, they are staying with their mother every other week.
+Q: How old is Leia?
+A: She is ten
+Q: How old is Luke? 
+A: He is five.
+Q: What is Leia’s date of birth? 
+A: January 31 2014 
+Q: Where was Leia born?
+A: Palo Alto, CA
+Q: What is Luke's date of birth? 
+A: June 31, 2019
+Q: Where was Luke born?
+A: Santa Clara, CA
+Q: Have both children lived at the same address since birth?
+A: Yes
+Q: Can you tell me the children’s residence address since birth?
+A: When Mei was born, we lived at 12 Orchard Street in Palo Alto. In 2018, we moved to 12 Garden Lane in Palo Alto. That is our current address. 
+Q: Do you remember the month that you moved to the Garden Lane address?
+A: October of 2018.
+Q: Who have the children lived with since birth?
+A: The children lived with me and the mother until the mother moved out in November 2023. 
+Q: Do you and mother have an agreement in place regarding who cares for the children?
+A: Yes, the children stay one week with me and one week with the mother. 
+Q: How long have you had this arrangement in place?
+A: Since November 2023 when the mother moved out. 
+Q: Is there any other person aside from the mother who has custody or visitation claims or rights regarding Leia or Luke? 
+A: No.
+"""
