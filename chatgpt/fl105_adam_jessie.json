@@ -1,0 +1,1000 @@
+{
+  "form_name": "FL-105",
+  "sections": [
+    [
+      {
+        "name": "header"
+      },
+      [
+        {
+          "text": "ATTORNEY OR PARTY WITHOUT ATTORNEY:",
+        },
+        {
+          "text": "Name",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "State Bar number",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "address",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "TELEPHONE NO.:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "FAX NO. (Optjona/):",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "E-MAIL ADDRESS (Optional):",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "ATTORNEY FOR (Name):",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "SUPERIOR COURT OF CALIFORNIA, COUNTY OF",
+        },
+        {
+          "text": "STREET ADDRESS:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "MAILING ADDRESS:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "CITY AND ZIP CODE:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "BRANCH NAME:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "(This section applies only to family law cases.)",
+        },
+        {
+          "text": "PETITIONER:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "RESPONDENT:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "OTHER PARTY':",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "(This section apples only to guardianship cases.)",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+        {
+          "text": "GUARDIANSHIP OF (Name):",
+          "value": "",
+          "description": "Minor",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "CASE NUMBER",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "DECLARATION UNDER UNIFORM CHILD CUSTODY JURISDICTION AND ENFORCEMENT ACT (UCCJEA)",
+        },
+        {
+          "text": "Form Adopted for Mandatory Use Judicial Council of Califomia FL-105/GC-120 [Rev. January 1, 2009]",
+        },
+        {
+          "text": "Family Code, S 3400 et seq.; ProbateCode, SS 1510(f), 1512 www.courtinfo.ca.gov",
+        },
+        {
+          "text": "NOTICE TO DECLARANT: You have a continuing duty to inform this court if you obtain any information about a custody proceeding in a California court or any other court concerning a child subject to this proceeding.",
+        },
+      ],
+      [
+        {
+          "text": "SHORT TITLE:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+    ],
+    [
+      {
+        "name": "01"
+      },
+      [
+        {
+          "text": "I am a party to this proceeding to determine custody of a child.",
+          "location": "1",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+      [
+        {
+          "text": "My present address and the present address of each child residing with me is confidential under Family Code section 3429 as I have indicated in item 3.",
+          "location": "2",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+    ],
+    [
+      {
+        "text": "There are (specify number) minor children who are subject to this proceeding, as follows (Insert the information requested below. The residence information must be given for the last FIVE years.)",
+        "location": "3",
+        "value": "",
+        "description": "",
+        "examples": "",
+        "children": [
+          [
+            [
+              {
+                "text": "Child's name",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Place of birth",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Date of birth",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Sex",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (put confidential if confitential)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+          ],
+          [
+            [
+              {
+                "text": "Child's name",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Place of birth",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Date of birth",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Sex",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (put confidential if confitential)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+          ],
+          [
+            {
+              "text": "Additional residence information for a child listed in item a or b is continued on attachment 3c.",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Additional children are listed on form FL-105(A)/GC-120(A). (Provide all requested information for additional children.)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+        ],
+      },
+    ],
+    [
+      {
+        "text": "Do you have information about, or have you participated as a party or as a witness or in some other capacity in, another court case or custody or visitation proceeding, in California or elsewhere, concerning a child subject to this proceeding?",
+        "value": "",
+        "location": "4",
+        "description": "",
+        "examples": [
+          "Yes",
+          "No"
+        ],
+        "children": [
+          {
+            "text": "(If yes, attach a copyofthe orders (if you have one) and provide the following information): ",
+          },
+          [
+            {
+              "text": "Proceeding Family",
+              "location": "a",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court (name, state, location)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court order or judgment (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Name of each child",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Your connection to the case",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case status",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Proceeding Guardianship",
+              "location": "b",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court (name, state, location)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court order or judgment (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Name of each child",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Your connection to the case",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case status",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Proceeding Other",
+              "location": "c",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court (name, state, location)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court order or judgment (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Name of each child",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Your connection to the case",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case status",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Proceeding Juvenile Delinquency/ Juvenile Dependency",
+              "location": "d",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case Number",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court (name, state, location)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Proceeding Adoption",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case Number",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court (name, state, location)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+        ],
+      },
+    ],
+    [
+      {
+        "text": "One or more domestic violence restraining/protective orders are now in effect. (Attach a copy of the orders if you have one and provide the following information):",
+        "location": "5",
+        "value": "",
+        "description": "",
+        "examples": "",
+        "children": [
+          [
+            {
+              "text": "Court Criminal",
+              "location": "a",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "County",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "State",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number (if known)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Orders expire (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Court Favmily",
+              "location": "a",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "County",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "State",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number (if known)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Orders expire (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Court Juvenile Delinquency/Dependency",
+              "location": "a",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "County",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "State",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number (if known)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Orders expire (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Court Other",
+              "location": "a",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "County",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "State",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number (if known)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Orders expire (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+        ],
+      },
+      [
+        {
+          "text": "Do you know of any person who is not a party to this proceeding who has physical custody or claims to have custody of or visitation rights with any child in this case? (If yes, provide the following information):",
+          "location": "6",
+          "value": [
+            "yes",
+            "no"
+          ],
+          "description": "",
+          "examples": "",
+          "children": [
+            [
+              {
+                "text": "Name and address of person",
+                "location": "a",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Has physical custody",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims custody rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims visitation rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Name of each child",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Name and address of person",
+                "location": "b",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Has physical custody",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims custody rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims visitation rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Name of each child",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Name and address of person",
+                "location": "c",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Has physical custody",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims custody rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims visitation rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Name of each child",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "I declare under penalty of perjury under the laws of the State of Califomia that the foregoing is true and correct.",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Date:",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "(TYPE OR PRINT NAME)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "(SIGNATURE OF DECLARANT)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+          ],
+        },
+      ],
+      [
+        {
+          "text": "Number of pages attached:",
+          "location": "7",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+    ]
+  ]
+}
+
