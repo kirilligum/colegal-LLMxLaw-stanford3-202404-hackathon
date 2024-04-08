@@ -34,46 +34,46 @@ Q: What is Jessie's current income?
 A: I don't know her current income. But before we separated, she was earning $20,000 per month. 
 Q: Do you and Monica have any minor children in common?
 A: Yes, we have two children, one girl and one boy.  
-What are the children’s names:
-Leia and Luke Smith.
-What is your relationship to the children?
-I’m their father 
-What is the mother’s name?
-Monica Smith 
-Do you and the mother still live together?
-No
-When did you stop living together?
-The mother moved out in November of 2023. 
-Did the children move out with the mother? 
-No, they stayed with me
-Do the children see their mother?
-Yes, they are staying with their mother every other week.
-How old is Leia?
-She is ten
-How old is Luke? 
-He is five.
-What is Leia’s date of birth? 
-January 31 2014 
-Where was Leia born?
-Palo Alto, CA
-What is Luke's date of birth? 
-June 31, 2019
-Where was Luke born?
-Santa Clara, CA
-Have both children lived at the same address since birth?
-Yes
-Can you tell me the children’s residence address since birth?
-When Mei was born, we lived at 12 Orchard Street in Palo Alto. In 2018, we moved to 12 Garden Lane in Palo Alto. That is our current address. 
-Do you remember the month that you moved to the Garden Lane address?
-October of 2018.
-Who have the children lived with since birth?
-The children lived with me and the mother until the mother moved out in November 2023. 
-Do you and mother have an agreement in place regarding who cares for the children?
-Yes, the children stay one week with me and one week with the mother. 
-How long have you had this arrangement in place?
-Since November 2023 when the mother moved out. 
-Is there any other person aside from the mother who has custody or visitation claims or rights regarding Leia or Luke? 
-No.
+Q: What are the children’s names:
+A: Leia and Luke Smith.
+Q: What is your relationship to the children?
+A: I’m their father 
+Q: What is the mother’s name?
+A: Monica Smith 
+Q: Do you and the mother still live together?
+A: No
+Q: When did you stop living together?
+A: The mother moved out in November of 2023. 
+Q: Did the children move out with the mother? 
+A: No, they stayed with me
+Q: Do the children see their mother?
+A: Yes, they are staying with their mother every other week.
+Q: How old is Leia?
+A: She is ten
+Q: How old is Luke? 
+A: He is five.
+Q: What is Leia’s date of birth? 
+A: January 31 2014 
+Q: Where was Leia born?
+A: Palo Alto, CA
+Q: What is Luke's date of birth? 
+A: June 31, 2019
+Q: Where was Luke born?
+A: Santa Clara, CA
+Q: Have both children lived at the same address since birth?
+A: Yes
+Q: Can you tell me the children’s residence address since birth?
+A: When Mei was born, we lived at 12 Orchard Street in Palo Alto. In 2018, we moved to 12 Garden Lane in Palo Alto. That is our current address. 
+Q: Do you remember the month that you moved to the Garden Lane address?
+A: October of 2018.
+Q: Who have the children lived with since birth?
+A: The children lived with me and the mother until the mother moved out in November 2023. 
+Q: Do you and mother have an agreement in place regarding who cares for the children?
+A: Yes, the children stay one week with me and one week with the mother. 
+Q: How long have you had this arrangement in place?
+A: Since November 2023 when the mother moved out. 
+Q: Is there any other person aside from the mother who has custody or visitation claims or rights regarding Leia or Luke? 
+A: No.
 
 your job is to fill in "ATTACHMENT TO FL-300 REOUEST FOR ORDER AND TO FL-158 SUPPORTING DECLARATION FOR ATTORNEY FEES" section
 
