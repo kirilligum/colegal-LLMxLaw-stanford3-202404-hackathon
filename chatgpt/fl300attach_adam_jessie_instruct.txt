@@ -34,46 +34,46 @@ Q: What is Jessie's current income?
 A: I don't know her current income. But before we separated, she was earning $50,000 per month. 
 Q: Do you and Jessie have any minor children in common?
 A: Yes, we have two children, one girl and one boy.  
-What are the children’s names:
-Mei and Jiro Jones
-What is your relationship to the children?
-I’m their father 
-What is the mother’s name?
-Jessie Jones
-Do you and the mother still live together?
-No
-When did you stop living together?
-The mother moved out in December of 2023. 
-Did the children move out with the mother? 
-No, they stayed with me
-Do the children see their mother?
-Yes, they are staying with their mother every other week.
-How old is Mei?
-She is ten
-How old is Jiro? 
-He is five.
-What is Mei’s date of birth? 
-January 1 2014 
-Where was Mei born?
-Palo Alto, CA
-What is Jiro's date of birth? 
-June 1, 2019
-Where was Jiro born?
-Santa Clara, CA
-Have both children lived at the same address since birth?
-Yes
-Can you tell me the children’s residence address since birth?
-When Mei was born, we lived at 1234 Oak Street in Palo Alto. In 2018, we moved to 1234 Walnut Drive in Palo Alto. That is our current address. 
-Do you remember the month that you moved to the Walnut Drive address?
-August of 2018.
-Who have the children lived with since birth?
-The children lived with me and the mother until the mother moved out in December 2023. 
-Do you and mother have an agreement in place regarding who cares for the children?
-Yes, the children stay one week with me and one week with the mother. 
-How long have you had this arrangement in place?
-Since December 2023 when the mother moved out. 
-Is there any other person aside from the mother who has custody or visitation claims or rights regarding Mei or Jiro? 
-No.
+Q: What are the children’s names:
+A: Mei and Jiro Jones
+Q: What is your relationship to the children?
+A: I’m their father 
+Q: What is the mother’s name?
+A: Jessie Jones
+Q: Do you and the mother still live together?
+A: No
+Q: When did you stop living together?
+A: The mother moved out in December of 2023. 
+Q: Did the children move out with the mother? 
+A: No, they stayed with me
+Q: Do the children see their mother?
+A: Yes, they are staying with their mother every other week.
+Q: How old is Mei?
+A: She is ten
+Q: How old is Jiro? 
+A: He is five.
+Q: What is Mei’s date of birth? 
+A: January 1 2014 
+Q: Where was Mei born?
+A: Palo Alto, CA
+Q: What is Jiro's date of birth? 
+A: June 1, 2019
+Q: Where was Jiro born?
+A: Santa Clara, CA
+Q: Have both children lived at the same address since birth?
+A: Yes
+Q: Can you tell me the children’s residence address since birth?
+A: When Mei was born, we lived at 1234 Oak Street in Palo Alto. In 2018, we moved to 1234 Walnut Drive in Palo Alto. That is our current address. 
+Q: Do you remember the month that you moved to the Walnut Drive address?
+A: August of 2018.
+Q: Who have the children lived with since birth?
+A: The children lived with me and the mother until the mother moved out in December 2023. 
+Q: Do you and mother have an agreement in place regarding who cares for the children?
+A: Yes, the children stay one week with me and one week with the mother. 
+Q: How long have you had this arrangement in place?
+A: Since December 2023 when the mother moved out. 
+Q: Is there any other person aside from the mother who has custody or visitation claims or rights regarding Mei or Jiro? 
+A: No.
 
 your job is to fill in "ATTACHMENT TO FL-300 REOUEST FOR ORDER AND TO FL-158 SUPPORTING DECLARATION FOR ATTORNEY FEES" section
 
