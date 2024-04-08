@@ -35,7 +35,7 @@ function App() {
         <input type="file" accept=".txt" onChange={handleFileUpload} ref={fileInputRef} />
       </div>
       <div>
-        <p>{transcript}</p>
+        <pre>{transcript}</pre>
       </div>
       <div>
         <a href="https://vitejs.dev" target="_blank">
