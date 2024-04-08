@@ -1,1 +1,149 @@
-new
+act as an assistant to a family law attorney.  
+here is a transcript of the conversation with the client:
+
+"""
+Q: What is your legal name? 
+A: Paul Smith
+Q: Are you married?
+A: Yes.
+Q: What is your wife's name?
+A: Monica Smith.
+Q: How long have you been married?
+A: We are married for seven years. 
+Q: What is the date of your marriage?
+A: June 1, 2017.
+Q: Do you and Monica currently live together? 
+A: No. 
+Q: When did you separate?
+A: We separated in November of 2023.
+Q: Do you remember the date of separation:
+A: Yes, November 1, 2023.
+Q: Why were you separated?
+A: Monica moved out. 
+Q: Do you continue to live at the same address? 
+A: Yes.
+Q: Do you currently work?
+A: Yes.
+Q: Where do you work?
+A: I am a line chef at the restaurant called California Poppy.  
+Q: What is your current income?
+A: My current salary is $10,000. 
+Q: Does Monica work?
+A: Yes, she is a digital product designer at Digico Inc.
+Q: What is Jessie's current income?
+A: I don't know her current income. But before we separated, she was earning $20,000 per month. 
+Q: Do you and Monica have any minor children in common?
+A: Yes, we have two children, one girl and one boy.  
+What are the children’s names:
+Leia and Luke Smith.
+What is your relationship to the children?
+I’m their father 
+What is the mother’s name?
+Monica Smith 
+Do you and the mother still live together?
+No
+When did you stop living together?
+The mother moved out in November of 2023. 
+Did the children move out with the mother? 
+No, they stayed with me
+Do the children see their mother?
+Yes, they are staying with their mother every other week.
+How old is Leia?
+She is ten
+How old is Luke? 
+He is five.
+What is Leia’s date of birth? 
+January 31 2014 
+Where was Leia born?
+Palo Alto, CA
+What is Luke's date of birth? 
+June 31, 2019
+Where was Luke born?
+Santa Clara, CA
+Have both children lived at the same address since birth?
+Yes
+Can you tell me the children’s residence address since birth?
+When Mei was born, we lived at 12 Orchard Street in Palo Alto. In 2018, we moved to 12 Garden Lane in Palo Alto. That is our current address. 
+Do you remember the month that you moved to the Garden Lane address?
+October of 2018.
+Who have the children lived with since birth?
+The children lived with me and the mother until the mother moved out in November 2023. 
+Do you and mother have an agreement in place regarding who cares for the children?
+Yes, the children stay one week with me and one week with the mother. 
+How long have you had this arrangement in place?
+Since November 2023 when the mother moved out. 
+Is there any other person aside from the mother who has custody or visitation claims or rights regarding Leia or Luke? 
+No.
+
+your job is to fill in "ATTACHMENT TO FL-300 REOUEST FOR ORDER AND TO FL-158 SUPPORTING DECLARATION FOR ATTORNEY FEES" section
+
+here is an example of the section:
+"""
+STATISTICAL FACTS
+am the "Respondent/Wife" in the above-entitled matter.
+1,
+he "Petitioner/Husband,"
+and I were married on
+and
+xxx
+separated on
+The length of the marriage was thirty-two (32) years and five (5)
+onths. We have two (2) adult children of the marriage. The children, Husband and I share our
+xxxxxx
+family residence at
+in Palo Alto, California. Husband and I have lived in
+separate rooms since the separation. Husband is years old, and I am years old.
+SPOUSAL SUPPORT
+Husband and I are retired. We each have filed our respective Preliminary Declarations of
+isclosure. According to Husband's declaration, he receives $7,342 per month in retirement pl
+enefits from CalPERS, and $2,343 per month in Social Security benefits, for a total amount of
+$9,685 per month.
+Throughout the marriage, Husband managed his own finances and maintained separate
+ank accounts. I owned and managed a small ice-cream business until 2013. After I stopped
+orking, I dedicated my life to raising the children, being the homemaker, and supporting
+usband's career advancement.
+Husband and I have had an informal agreement in place that he pay mortgage, home
+insurance, and real estate taxes, and I pay utilities, phone, and various household bills. My
+hildren and I also buy groceries for the house, and I pay all of my auto expenses, including gas,
+surance, and maintenance.
+My current income consists of Social Security benefits in the amount of $786 per month.
+do not have a retirement or a pension plan. In December of 2021, I had to take out a bank loan
+o pay my share of household expenses, as well as my personal expenses and attorney's fees.
+
+Because of the low monthly income, I could only get a short-term high-interest loan that matures
+next year.
+As I cannot afford the expenses, including my regular medical prescription costs and autol
+expenses, I asked Husband to pay me guideline spousal support of $2,502 per month. 1--1e refused.
+I am therefore requesting that the Court order temporary spousal support congruous with
+our respective incomes. I will be filing an updated Income and Expense Declaration concurrently
+with this motion.
+ATTORNEY FEES
+I request the Court order Husband pay my attorney fees in the amount of $20,000.00
+xxxxxxxxx
+under family code section 2030. On June l, 2022, I retained
+to represent m
+in the above-entitled matter. Ms.
+s hourly rate is $450.00 per hour and Mr. s hourly
+rate is $300 per hour. I have no income beyond the Social Security benefits of $786 per month,
+Husband is currently not paying me any support, and I am forced to get bank and family loans to
+meet my financial obligations. I paid my attorney's fee retainer of $15,000 with the high-interest
+bank loan that I need to pay off as soon as possible so that I do not incur interest on the sum.
+Moreover, I--lusband not only earns more than ten times what I earn each month, but he
+has continued living in the house after filing for divorce and has had limited expenses. In his
+Income and Expense Declaration, Husband estimates that he pays, among other things, $700 per
+month for groceries. This amount seems exaggerated because Husband does not buy that many
+groceries, and the children and I spend a combined amount of about $900 per month to buy food.
+Husband has also been making excessive charitable contributions of over $730 per month, and
+has had access to all of his pension, savings and liquid assets. In November 2021, Husband also
+received an inheritance in the amount of $25,000. On information and belief, Husband's
+attorney's fees constitute a flat fee in an amount less than 50% of his one month's income.
+Husband therefore has the ability to pay both his own attorney' fees and mine using his income,
+savings, and inheritance funds.
+
+REOUESTED ORDERS
+I, therefore, respectfully request the court to make the following orders:
+1. Husband to pay temporary guideline spousal support congruous with our earnings;
+2. Husband to pay my attorney fees in the amount of $20,000.00 in accordance with Family
+Code section 2030;
+3. Any orders required to effectuate the above requests.
+"""new
