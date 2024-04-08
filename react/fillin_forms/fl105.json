@@ -130,6 +130,23 @@
         {
           "text": "DECLARATION UNDER UNIFORM CHILD CUSTODY JURISDICTION AND ENFORCEMENT ACT (UCCJEA)",
         },
+        {
+          "text": "Form Adopted for Mandatory Use Judicial Council of Califomia FL-105/GC-120 [Rev. January 1, 2009]",
+        },
+        {
+          "text": "Family Code, S 3400 et seq.; ProbateCode, SS 1510(f), 1512 www.courtinfo.ca.gov",
+        },
+        {
+          "text": "NOTICE TO DECLARANT: You have a continuing duty to inform this court if you obtain any information about a custody proceeding in a California court or any other court concerning a child subject to this proceeding.",
+        },
+      ],
+      [
+        {
+          "text": "SHORT TITLE:",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
       ],
     ],
     [
@@ -496,23 +513,488 @@
     ],
     [
       {
-        "text": "Form Adopted for Mandatory Use Judicial Council of Califomia FL-105/GC-120 [Rev. January 1, 2009]",
+        "text": "Do you have information about, or have you participated as a party or as a witness or in some other capacity in, another court case or custody or visitation proceeding, in California or elsewhere, concerning a child subject to this proceeding?",
         "value": "",
+        "location": "4",
         "description": "",
-        "examples": ""
-      },
-      {
-        "text": "DECLARATION UNDER UNIFORM CHILD CUSTODY JURISDICTION AND ENFORCEMENT ACT (UCCJEA)",
-        "value": "",
-        "description": "",
-        "examples": ""
-      },
-      {
-        "text": "Family Code, S 3400 et seq.; ProbateCode, SS 1510(f), 1512 www.courtinfo.ca.gov",
-        "value": "",
-        "description": "",
-        "examples": ""
+        "examples": [
+          "Yes",
+          "No"
+        ],
+        "children": [
+          {
+            "text": "(If yes, attach a copyofthe orders (if you have one) and provide the following information): ",
+          },
+          [
+            {
+              "text": "Proceeding Family",
+              "location": "a",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court (name, state, location)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court order or judgment (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Name of each child",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Your connection to the case",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case status",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Proceeding Guardianship",
+              "location": "b",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court (name, state, location)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court order or judgment (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Name of each child",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Your connection to the case",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case status",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Proceeding Other",
+              "location": "c",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court (name, state, location)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court order or judgment (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Name of each child",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Your connection to the case",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case status",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Proceeding Juvenile Delinquency/ Juvenile Dependency",
+              "location": "d",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case Number",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court (name, state, location)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Proceeding Adoption",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case Number",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Court (name, state, location)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+        ],
       },
     ],
+    [
+      {
+        "text": "One or more domestic violence restraining/protective orders are now in effect. (Attach a copy of the orders if you have one and provide the following information):",
+        "location": "5",
+        "value": "",
+        "description": "",
+        "examples": "",
+        "children": [
+          [
+            {
+              "text": "Court Criminal",
+              "location": "a",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "County",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "State",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number (if known)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Orders expire (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Court Favmily",
+              "location": "a",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "County",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "State",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number (if known)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Orders expire (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Court Juvenile Delinquency/Dependency",
+              "location": "a",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "County",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "State",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number (if known)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Orders expire (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Court Other",
+              "location": "a",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "County",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "State",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Case number (if known)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+            {
+              "text": "Orders expire (date)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+        ],
+      },
+      [
+        {
+          "text": "Do you know of any person who is not a party to this proceeding who has physical custody or claims to have custody of or visitation rights with any child in this case? (If yes, provide the following information):",
+          "location": "6",
+          "value": [
+            "yes",
+            "no"
+          ],
+          "description": "",
+          "examples": "",
+          "children": [
+            [
+              {
+                "text": "Name and address of person",
+                "location": "a",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Has physical custody",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims custody rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims visitation rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Name of each child",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Name and address of person",
+                "location": "b",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Has physical custody",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims custody rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims visitation rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Name of each child",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Name and address of person",
+                "location": "c",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Has physical custody",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims custody rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Claims visitation rights",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Name of each child",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "I declare under penalty of perjury under the laws of the State of Califomia that the foregoing is true and correct.",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Date:",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "(TYPE OR PRINT NAME)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "(SIGNATURE OF DECLARANT)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+          ],
+        },
+      ],
+      [
+        {
+          "text": "Number of pages attached:",
+          "location": "7",
+          "value": "",
+          "description": "",
+          "examples": ""
+        },
+      ],
+    ]
   ]
 }
+
