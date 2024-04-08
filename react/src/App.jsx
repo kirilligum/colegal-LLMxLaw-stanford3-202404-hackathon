@@ -31,7 +31,7 @@ function App() {
       <h1 className="text-3xl font-bold underline">
         Hello world!
       </h1>
-      <div>
+      <div className="transcript-container">
         <input type="file" accept=".txt" onChange={handleFileUpload} ref={fileInputRef} />
       </div>
       <div>
