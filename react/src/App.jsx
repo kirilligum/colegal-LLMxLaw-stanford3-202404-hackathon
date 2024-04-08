@@ -34,7 +34,7 @@ function App() {
       <div className="transcript-container">
         <input type="file" accept=".txt" onChange={handleFileUpload} ref={fileInputRef} />
       </div>
-      <div>
+      <div className="text-left">
         <pre>{transcript}</pre>
       </div>
     </>
