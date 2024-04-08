@@ -1,0 +1,72 @@
+Q: What is your legal name? 
+A: Paul Smith
+Q: Are you married?
+A: Yes.
+Q: What is your wife's name?
+A: Monica Smith.
+Q: How long have you been married?
+A: We are married for seven years. 
+Q: What is the date of your marriage?
+A: June 1, 2017.
+Q: Do you and Monica currently live together? 
+A: No. 
+Q: When did you separate?
+A: We separated in November of 2023.
+Q: Do you remember the date of separation:
+A: Yes, November 1, 2023.
+Q: Why were you separated?
+A: Monica moved out. 
+Q: Do you continue to live at the same address? 
+A: Yes.
+Q: Do you currently work?
+A: Yes.
+Q: Where do you work?
+A: I am a line chef at the restaurant called California Poppy.  
+Q: What is your current income?
+A: My current salary is $10,000. 
+Q: Does Monica work?
+A: Yes, she is a digital product designer at Digico Inc.
+Q: What is Jessie's current income?
+A: I don't know her current income. But before we separated, she was earning $20,000 per month. 
+Q: Do you and Monica have any minor children in common?
+A: Yes, we have two children, one girl and one boy.  
+Q: What are the children’s names:
+A: Leia and Luke Smith.
+Q: What is your relationship to the children?
+A: I’m their father 
+Q: What is the mother’s name?
+A: Monica Smith 
+Q: Do you and the mother still live together?
+A: No
+Q: When did you stop living together?
+A: The mother moved out in November of 2023. 
+Q: Did the children move out with the mother? 
+A: No, they stayed with me
+Q: Do the children see their mother?
+A: Yes, they are staying with their mother every other week.
+Q: How old is Leia?
+A: She is ten
+Q: How old is Luke? 
+A: He is five.
+Q: What is Leia’s date of birth? 
+A: January 31 2014 
+Q: Where was Leia born?
+A: Palo Alto, CA
+Q: What is Luke's date of birth? 
+A: June 31, 2019
+Q: Where was Luke born?
+A: Santa Clara, CA
+Q: Have both children lived at the same address since birth?
+A: Yes
+Q: Can you tell me the children’s residence address since birth?
+A: When Mei was born, we lived at 12 Orchard Street in Palo Alto. In 2018, we moved to 12 Garden Lane in Palo Alto. That is our current address. 
+Q: Do you remember the month that you moved to the Garden Lane address?
+A: October of 2018.
+Q: Who have the children lived with since birth?
+A: The children lived with me and the mother until the mother moved out in November 2023. 
+Q: Do you and mother have an agreement in place regarding who cares for the children?
+A: Yes, the children stay one week with me and one week with the mother. 
+Q: How long have you had this arrangement in place?
+A: Since November 2023 when the mother moved out. 
+Q: Is there any other person aside from the mother who has custody or visitation claims or rights regarding Leia or Luke? 
+A: No.

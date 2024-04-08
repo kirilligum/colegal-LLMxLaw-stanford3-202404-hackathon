@@ -1,0 +1,72 @@
+Q: What is your legal name? 
+A: Adam Jones
+Q: Are you married?
+A: Yes.
+Q: What is your wife's name?
+A: Jessie Jones.
+Q: How long have you been married?
+A: We are married for eleven years. 
+Q: What is the date of your marriage?
+A: March 1, 2013.
+Q: Do you and Jessie currently live together? 
+A: No. 
+Q: When did you separate?
+A: We separated in December of 2023.
+Q: Do you remember the date of separation:
+A: Yes, December 1, 2023.
+Q: Why were you separated?
+A: Jessie moved out. 
+Q: Do you continue to live at the same address? 
+A: Yes.
+Q: Do you currently work?
+A: Yes.
+Q: Where do you work?
+A: I am Chief Data Scientist at the startup called Colegal. 
+Q: What is your current income?
+A: My current salary is $5,000, and I have a 25% interest in the company. 
+Q: Does Jessie work?
+A: Yes, she is Chief Operating Director at GlobalSoft Inc.
+Q: What is Jessie's current income?
+A: I don't know her current income. But before we separated, she was earning $50,000 per month. 
+Q: Do you and Jessie have any minor children in common?
+A: Yes, we have two children, one girl and one boy.  
+Q: What are the children’s names:
+A: Mei and Jiro Jones
+Q: What is your relationship to the children?
+A: I’m their father 
+Q: What is the mother’s name?
+A: Jessie Jones
+Q: Do you and the mother still live together?
+A: No
+Q: When did you stop living together?
+A: The mother moved out in December of 2023. 
+Q: Did the children move out with the mother? 
+A: No, they stayed with me
+Q: Do the children see their mother?
+A: Yes, they are staying with their mother every other week.
+Q: How old is Mei?
+A: She is ten
+Q: How old is Jiro? 
+A: He is five.
+Q: What is Mei’s date of birth? 
+A: January 1 2014 
+Q: Where was Mei born?
+A: Palo Alto, CA
+Q: What is Jiro's date of birth? 
+A: June 1, 2019
+Q: Where was Jiro born?
+A: Santa Clara, CA
+Q: Have both children lived at the same address since birth?
+A: Yes
+Q: Can you tell me the children’s residence address since birth?
+A: When Mei was born, we lived at 1234 Oak Street in Palo Alto. In 2018, we moved to 1234 Walnut Drive in Palo Alto. That is our current address. 
+Q: Do you remember the month that you moved to the Walnut Drive address?
+A: August of 2018.
+Q: Who have the children lived with since birth?
+A: The children lived with me and the mother until the mother moved out in December 2023. 
+Q: Do you and mother have an agreement in place regarding who cares for the children?
+A: Yes, the children stay one week with me and one week with the mother. 
+Q: How long have you had this arrangement in place?
+A: Since December 2023 when the mother moved out. 
+Q: Is there any other person aside from the mother who has custody or visitation claims or rights regarding Mei or Jiro? 
+A: No.
