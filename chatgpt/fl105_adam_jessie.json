@@ -184,25 +184,25 @@
             [
               {
                 "text": "Child's name",
-                "value": "",
+                "value": "Mei Jones",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Place of birth",
-                "value": "",
+                "value": "Palo Alto, CA",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Date of birth",
-                "value": "",
+                "value": "01/01/2014",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Sex",
-                "value": "",
+                "value": "F",
                 "description": "",
                 "examples": ""
               },
@@ -210,31 +210,31 @@
             [
               {
                 "text": "Period of residence from",
-                "value": "",
+                "value": "December 2023",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Period of residence to",
-                "value": "",
+                "value": "Present",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Child's residence address (put confidential if confitential)",
-                "value": "",
+                "value": "1234 Walnut Drive, Palo Alto, CA 94000",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Person Child lived with (name and complete current address)",
                 "value": "",
-                "description": "",
+                "description": "Adam Jones, 1234 Walnut Drive, Palo Alto, CA 94000",
                 "examples": ""
               },
               {
                 "text": "Relationship",
-                "value": "",
+                "value": "Father",
                 "description": "",
                 "examples": ""
               },
@@ -242,31 +242,31 @@
             [
               {
                 "text": "Period of residence from",
-                "value": "",
+                "value": "Birth",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Period of residence to",
-                "value": "",
+                "value": "December 2023",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Child's residence address (City, State)",
                 "value": "",
-                "description": "",
+                "description": " 1234 Oak Street, Palo Alto, CA 94000",
                 "examples": ""
               },
               {
                 "text": "Person Child lived with (name and complete current address)",
                 "value": "",
-                "description": "",
+                "description": "Jessie Jones, Adam Jones",
                 "examples": ""
               },
               {
                 "text": "Relationship",
-                "value": "",
+                "value": "Mother, Father",
                 "description": "",
                 "examples": ""
               },
@@ -340,25 +340,25 @@
             [
               {
                 "text": "Child's name",
-                "value": "",
+                "value": "Jiro Jones",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Place of birth",
-                "value": "",
+                "value": "Santa Clara, California",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Date of birth",
-                "value": "",
+                "value": "06/01/2019",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Sex",
-                "value": "",
+                "value": "M",
                 "description": "",
                 "examples": ""
               },
@@ -366,31 +366,31 @@
             [
               {
                 "text": "Period of residence from",
-                "value": "",
+                "value": "Decemebr 2023",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Period of residence to",
-                "value": "",
+                "value": "Present",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Child's residence address (put confidential if confitential)",
-                "value": "",
+                "value": "1234 Walnut Drive, Palo Alto, CA 94000",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Person Child lived with (name and complete current address)",
-                "value": "",
+                "value": "Adam Jones",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Relationship",
-                "value": "",
+                "value": "Father",
                 "description": "",
                 "examples": ""
               },
@@ -398,31 +398,31 @@
             [
               {
                 "text": "Period of residence from",
-                "value": "",
+                "value": "Birth",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Period of residence to",
-                "value": "",
+                "value": "December 2023",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Child's residence address (City, State)",
-                "value": "",
+                "value": "1234 Oak Street, Palo Alto, CA 94000",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Person Child lived with (name and complete current address)",
-                "value": "",
+                "value": "Jessie Jones, Adam Jones",
                 "description": "",
                 "examples": ""
               },
               {
                 "text": "Relationship",
-                "value": "",
+                "value": "Mother, Father",
                 "description": "",
                 "examples": ""
               },
