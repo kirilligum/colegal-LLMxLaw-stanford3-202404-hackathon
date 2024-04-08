@@ -1,10 +1,27 @@
 act as an assistant to a family law attorney.  
 here is a transcript of the conversation with the client:
+
 ```
-How many children under the age of 18 do you have born out of marriage? 
-One girl and one boy
-3.a.1.iv. 
-3.b.1.iv. 
+Q: What is your legal name? 
+A: Adam Jones
+Q: Are you married?
+A: Yes.
+Q: What is your wife's name?
+A: Jessie Jones.
+Q: How long have you been married?
+A: We are married for eleven years. 
+Q: What is the date of your marriage?
+A: March 1, 2013.
+Q: Do you and Jessie currently live together? 
+A: No. 
+Q: When did you separate?
+A: We separated in December of 2023.
+Q: Do you remember the date of separation:
+A: Yes, December 1, 2023.
+Q: Why were you separated?
+A: Jessie moved out. 
+Q: Do you and Jessie have any minor children in common?
+A: Yes, we have two children, one girl and one boy.  
 What are the children’s names:
 Mei and Jiro Jones
 3.a.1.i. 
