@@ -155,9 +155,364 @@
         },
       ],
     ],
+    [
+      {
+        "text": "There are (specify number) minor children who are subject to this proceeding, as follows (Insert the information requested below. The residence information must be given for the last FIVE years.)",
+        "location": "3",
+        "value": "",
+        "description": "",
+        "examples": "",
+        "children": [
+          [
+            [
+              {
+                "text": "Child's name",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Place of birth",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Date of birth",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Sex",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (put confidential if confitential)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+          ],
+          [
+            [
+              {
+                "text": "Child's name",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Place of birth",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Date of birth",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Sex",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (put confidential if confitential)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+            [
+              {
+                "text": "Period of residence from",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Period of residence to",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Child's residence address (City, State)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Person Child lived with (name and complete current address)",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+              {
+                "text": "Relationship",
+                "value": "",
+                "description": "",
+                "examples": ""
+              },
+            ],
+          ],
+          [
+            {
+              "text": "Additional residence information for a child listed in item a or b is continued on attachment 3c.",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+          [
+            {
+              "text": "Additional children are listed on form FL-105(A)/GC-120(A). (Provide all requested information for additional children.)",
+              "value": "",
+              "description": "",
+              "examples": ""
+            },
+          ],
+        ],
+      },
+    ],
+    [
+      {
+        "text": "Form Adopted for Mandatory Use Judicial Council of Califomia FL-105/GC-120 [Rev. January 1, 2009]",
+        "value": "",
+        "description": "",
+        "examples": ""
+      },
+      {
+        "text": "DECLARATION UNDER UNIFORM CHILD CUSTODY JURISDICTION AND ENFORCEMENT ACT (UCCJEA)",
+        "value": "",
+        "description": "",
+        "examples": ""
+      },
+      {
+        "text": "Family Code, S 3400 et seq.; ProbateCode, SS 1510(f), 1512 www.courtinfo.ca.gov",
+        "value": "",
+        "description": "",
+        "examples": ""
+      },
+    ],
   ]
 }
-
-3. There are (specify number):
-minor children who are subject to this proceeding, as follows:
-(Insert the information requested below. The residence information must be given for the last FIVE years.)
